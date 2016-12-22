@@ -1,0 +1,511 @@
+@font-face {
+	font-family: "gotham_bold";
+	src: url("fonts/GOTHAM-BOLD.OTF"); /* para IE */
+	src: url("fonts/GOTHAM-BOLD.TTF");
+	}
+@font-face {
+	font-family: "gotham_light";
+	src: url("fonts/GOTHAM-LIGHT.OTF"); /* para IE */
+	src: url("fonts/GOTHAM-LIGHT.TTF");
+	}	
+.topo-fluid {
+	border-bottom: 5px solid #f26e38;
+}
+
+.tel span.pull-right {
+    padding: 30px 0;
+}
+
+.tel span {
+	color: #5cb0be;
+}
+
+.tel a {
+	color: #5cb0be;
+}
+.tel span.glyphicon.glyphicon-search {
+	color: #000;
+}
+
+
+.topo-menu-fluid {
+	background: #28a7b6;
+}
+
+.nav.nav-pills>li>a{
+	color: #fff;
+	background: transparent;
+    padding: 25px 15px;
+    font-family:  "gotham_light", Cursive;
+    font-size: 18px;
+}
+.nav.nav-pills>li>a:hover {
+    text-decoration: none;
+    background-color: #268894;
+}
+.logo img {
+	position: absolute;
+    top: 12px;
+    border-bottom: 5px solid #f26e38;
+        z-index: 999999;
+}
+.slide.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+.bx-wrapper img {
+	width: 100%;
+    display: block;
+    height: auto;
+
+}
+.slide ul {
+	margin: 0;
+	padding: 0;
+}
+.bx-wrapper .bx-viewport {
+	left: 0;
+	border:0 !important;
+}
+.bx-wrapper .bx-prev {
+	background: url(bxslider/images/seta-esquerda_03.png);
+	background-repeat: no-repeat;
+
+}
+.bx-wrapper .bx-controls-direction a {
+	height: 41px;
+}
+
+.bx-wrapper .bx-next {
+	background: url(bxslider/images/seta-direita_03.png);
+	background-repeat: no-repeat;
+
+}
+.bx-wrapper .bx-next:hover {
+    background-position: 0 0;
+}
+.texto-slide {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texto-slide h1 {
+	font-family: "gotham_bold", Cursive;
+	font-size: 31px;
+	color: #fff;
+	text-align: center;
+}
+
+.tel .text-light {
+	font-size: 15.70px;
+	font-family: "gotham_light", Cursive;
+
+}
+.tel .text-bold {
+	font-size: 15.70px;
+	margin: 0 5px;
+		font-family: "gotham_bold", Cursive;
+}
+.tel span {
+	margin:0 6px;
+}
+.texto-slide span {
+	color: #ff8750;
+}
+
+
+
+/*COMO FUNCIONA*/
+.como-funciona-fluid {
+	background: url(images/bg-tira-cinza_02.jpg);
+	background-repeat: repeat-x;
+	margin-bottom: 51px;
+}
+
+.como-funciona-fluid h1 {
+	font-size: 32px;
+}
+.como-funciona-fluid .text-light {
+	font-family: "gotham_light", Cursive;
+	color: #68bac6;
+
+}
+.como-funciona-fluid .text-bold {
+	font-family: "gotham_bold", Cursive;
+	color: #68bac6;
+}
+
+.como-funciona-text span {
+	color: #535e72;
+	font-size: 18px;
+	font-family: "gotham_bold", Cursive;
+}
+.col-md-12.como-funciona-text {
+    margin-top: 47px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.col-md-12.lado-foto, .col-md-6.lado-foto {
+	padding: 0;
+}
+.lado-foto img {
+	width: 100%;
+}
+.contador-blocks {
+	position: absolute;
+    bottom: 0;
+    background: #5c6174;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 26px;
+    font-family: "gotham_bold", Cursive;
+    z-index: 999;
+}
+.block-opacity-info {
+ 	display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 9999;
+    
+}
+.block-opacity-info p {
+	font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: "gotham_bold", Cursive;	
+    padding: 10px;
+}
+.bg-hover {
+	display: none;
+	background: red;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background: rgba(234, 140, 72, 0.93);
+	z-index: 9999;
+
+}
+
+.col-md-12.lado-foto:hover .bg-hover{
+	display: block;
+    animation-name: opacity;
+
+
+
+}
+.col-md-12.lado-foto:hover .block-opacity-info{
+	display: block;
+    animation-name: opacity;
+    animation-duration: 1s;
+
+}
+@keyframes opacity {
+    0%   {	opacity: 0;}
+    100% {	opacity: .99;}
+
+}
+
+
+
+
+/*SOLUÇÕES*/
+.solucoes-fluid {
+	background: url(images/bg-solucoes_02.jpg);
+	background-size: cover;
+}
+.row.solucoes-text.text-center {
+	background:  #f08e4a;
+	padding: 38px 0;
+}
+.block-solucoes {
+
+	border: 5px solid #f08e4a;
+}
+.solucoes-text {
+	color: #fff;
+	font-size: 32px;
+}
+.solucoes-text .text-light {
+	font-family: "gotham_light", Cursive;
+}
+
+.solucoes-text .text-bold {
+    font-family: "gotham_bold", Cursive;
+}
+
+@media (min-width: 992px){
+.block-solucoes.col-md-6{
+    width: 47%;
+    margin: 0 11px;
+    	margin-top: 30px;
+	margin-bottom: 49px;
+}
+}
+
+.solucoes-topics span {
+	    font-family: "gotham_bold", Cursive;
+	    font-size: 18px;
+	    color: #fff;
+}
+.solucoes-topics > .row {
+    padding: 10px 0;
+}
+.btn-solucoes a {
+background: #f08e4a;
+    color: #fff;
+    /* padding: 16px 83px; */
+    display: block;
+    padding: 16px;
+}
+span.text-light {
+	font-family: "gotham_light", Cursive;
+}
+span.text-bold {
+    font-family: "gotham_bold", Cursive;
+}
+
+
+
+/*DIFERENCIAIS*/
+.col-md-12.lado-foto-2, .col-md-6.lado-foto-2 {
+	padding: 0;
+}
+
+
+.col-md-12.lado-foto-2:hover .bg-hover{
+	display: block;
+    animation-name: opacity;
+
+
+
+}
+.col-md-12.lado-foto-2:hover .block-opacity-info{
+	display: block;
+    animation-name: opacity;
+    animation-duration: 1s;
+
+}
+@keyframes opacity {
+    0%   {	opacity: 0;}
+    100% {	opacity: .99;}
+
+}
+
+.diferenciais-fluid {
+	background: url(images/bg-diferenciais_02.jpg);
+	background-size: cover;
+}
+.diferenciais-text h1 {
+	font-size: 32px;
+	color: #68bac6;
+	margin-top: 57px;
+	margin-bottom: 59px;
+}
+.diferenciais-area-text {
+	color: #535e72;
+    font-size: 24px;
+    font-family: "gotham_bold", Cursive;
+    margin-top: 33px;
+    margin-bottom: 48px;
+}
+
+.lado-foto-2.dif-fotos img{
+/*	width: 100%;
+    height: 255px;
+   border: 2px solid #2ca8b7;
+    border-radius: 50%;*/
+}
+/*.col-md-12.lado-foto.dif-fotos {
+	overflow: hidden;
+	border-radius: 50%;
+	  border: 2px solid #2ca8b7;
+}*/
+.col-md-12.lado-foto-2.dif-fotos {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #2ca8b7;
+    width: 198px;
+    height: 184px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -99px;
+}
+/*CHAMADAS*/
+.chamadas-fluid {
+	background: #f4f4f4;
+	background: url(images/bg-chamadas_03.jpg);
+	padding: 50px;
+}
+
+
+.map.container-fluid {
+	padding: 0;
+}
+
+
+
+.blog-fluid {
+	background: url(images/gb-blog_02.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 60px;
+}
+.blog-title-main h1 {
+	color: #fff;
+	margin: 46px 0;
+}
+
+.blog-text span{
+	color: #535e72;
+	font-size: 18px;
+	font-family: "gotham_bold", Cursive;
+}
+.blog-text-p p {
+	font-size: 16px;
+	font-family: "gotham_light", Cursive;
+}
+.blog-text {
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+.mensagem-fluid h1 {
+	color: #fff;
+	margin: 37px 0;
+}
+.mensagem-fluid {
+	background: url(images/bg-mensagem_02.jpg);
+	background-repeat: repeat-x;
+	border-bottom:5px solid #f47c45;
+}
+
+
+
+.form-fluid {
+	background: url(images/bg-forn_02.jpg);
+	background-size: cover;
+}
+
+.form-group input, .form-group textarea {
+	background-color: #f8f8f8;
+    background-image: none;
+    padding: 20px 20px;	
+    border:0;
+}
+.btn.btn-default {
+     background-color: #f08e4a;
+    border-color: #ccc;
+    padding: 30px 54px;
+    color: #fff;
+}
+.form-group ::-webkit-input-placeholder {
+   color: #535e72;
+	font-family: "gotham_bold", Cursive;
+   font: 16px ;
+}
+
+.form-group :-moz-placeholder {
+   color: #535e72;
+	font-family: "gotham_bold", Cursive;
+   font: 16px ;
+}
+
+.form-group ::-moz-placeholder {
+   color: #535e72;
+	font-family: "gotham_bold", Cursive;
+   font: 16px;
+}
+
+.form-group :-ms-input-placeholder {
+   color: #535e72;
+	font-family: "gotham_bold", Cursive;
+   font: 16px;
+}
+.form-group input[type="placeholder"] {
+	color: red;
+}
+
+.form-box {
+	margin: 50px 0;
+}
+
+
+@media (min-width: 768px){
+.textarea.col-sm-12 {
+    width: 100%;
+    padding: 0 19px;
+}
+}
+
+@media (min-width: 992px){
+.inputs-box.col-md-6 {
+    width: 49%;
+    margin: 0.5%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*RODAPÉ*/
+.rodape-fluid {
+	background:url(images/bg-rodape_02.jpg);
+	background-size: cover;
+}
+
+.footer-1 p, .footer-2 p, .footer-3 p {
+	color: #fff;
+	font-size: 16px;
+	
+}
+.footer-2 p.texto-footer-p {
+		font-family: "gotham_light", Cursive;
+}
+.footer-1 ul, .footer-3 ul {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-1 li, .footer-3 li {
+	color: #fff;
+	margin: 5px 0;
+}
+.footer-3 li a {
+	color: #fff;
+	font-family: "gotham_light", Cursive;
+}
+.footer-1 li a {
+	color: #f08e4a;
+	font-family: "gotham_bold", Cursive;
+	font-size: 16px;	
+}
+.rodape-box {
+	margin-top: 65px;
+	margin-bottom: 145px;
+}
+
+
+.copy-fluid {
+	background: url(images/bg-copyright_02.jpg);
+	background-size: cover;
+}
+
+.text-rodape span {
+	color: #fff;
+	padding: 25px;
+	font-size: 14px;
+}
