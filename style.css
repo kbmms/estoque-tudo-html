@@ -294,7 +294,15 @@ span.text-bold {
     100% {	opacity: .99;}
 
 }
-
+.col-md-12.parag {
+	padding: 0;
+}
+.parag p {
+	font-family: "gotham_light", Cursive;
+	font-size: 16px;
+	color: #535e72;
+	    margin-top: 13px;
+}
 .diferenciais-fluid {
 	background: url(images/bg-diferenciais_02.jpg);
 	background-size: cover;
@@ -305,12 +313,27 @@ span.text-bold {
 	margin-top: 57px;
 	margin-bottom: 59px;
 }
+.diferenciais-sobrenos {
+	background: url(images/estoque_tudo_sobre_nos222_02.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
 .diferenciais-area-text {
 	color: #535e72;
     font-size: 24px;
     font-family: "gotham_bold", Cursive;
     margin-top: 33px;
     margin-bottom: 48px;
+
+
+    overflow: hidden;
+ /*   border-radius: 50%;*/
+    /* border: 2px solid #2ca8b7; */
+    width: 250px;
+    /* height: 250px; */
+    /* margin: 0 auto; */
+    left: 50%;
+    margin-left: -124px;
 }
 
 .lado-foto-2.dif-fotos img{
@@ -327,12 +350,12 @@ span.text-bold {
 .col-md-12.lado-foto-2.dif-fotos {
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #2ca8b7;
-    width: 198px;
-    height: 184px;
+/*    border: 2px solid #2ca8b7;*/
+    width:250px;
+    height: 250px;
     margin: 0 auto;
     left: 50%;
-    margin-left: -99px;
+    margin-left: -125px;
 }
 /*CHAMADAS*/
 .chamadas-fluid {
@@ -405,6 +428,9 @@ span.text-bold {
     padding: 30px 54px;
     color: #fff;
 }
+
+
+
 .form-group ::-webkit-input-placeholder {
    color: #535e72;
 	font-family: "gotham_bold", Cursive;
@@ -428,9 +454,7 @@ span.text-bold {
 	font-family: "gotham_bold", Cursive;
    font: 16px;
 }
-.form-group input[type="placeholder"] {
-	color: red;
-}
+
 
 .form-box {
 	margin: 50px 0;
@@ -450,8 +474,6 @@ span.text-bold {
     margin: 0.5%;
 }
 }
-
-
 
 
 
@@ -508,4 +530,208 @@ span.text-bold {
 	color: #fff;
 	padding: 25px;
 	font-size: 14px;
+}
+.contato-texto-box.col-md-10{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================INTERNAS============================*/
+.bg-internas {
+	background: url(images/bg-internas_02.jpg);
+	background-size: cover;
+	height: 100px;
+}
+.interna-fluid-texto .text-bold {
+	font-family: "gotham_bold", Cursive;
+	color: #68bac6;
+}
+.interna-fluid-texto {
+	padding: 10px 0;
+}
+.interna-fluid-texto a {
+color: #535e72;
+font-size: 16px;
+font-weight: bold;
+
+}
+
+.blog-box h1{
+	font-family: "gotham_bold", Cursive;
+	color: #68bac6;
+	font-size: 18px;
+}
+
+.blog-box p {
+	color: #535e72;
+	font-family: "gotham_light", Cursive;
+	font-size: 16px;
+}
+.blog-box a.more {
+	color: #f08e4a;
+	font-family: "gotham_bold", Cursive;
+	font-size: 16px;
+}
+
+
+.single h1 {
+	font-family: "gotham_bold", Cursive;
+    color: #68bac6;
+    font-size: 31px;
+}
+
+.single p {
+	color: #535e72;
+	font-family: "gotham_light", Cursive;
+	font-size: 16px;	
+}
+.single.col-md-12 {
+    padding: 20px 0;
+}
+a.back {
+	    background: #f08e4a;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 19px;
+   	font-family: "gotham_bold", Cursive; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CALCULE ESPACO*/
+.calcule-espaco-title h2 {
+	color: #535e72;
+	font-size: 24px;
+	font-family: "gotham_bold", Cursive;
+}
+.tabela-box-pequeno, .tabela-box-medio,   .tabela-box-grande{
+	font-family: "gotham_bold", Cursive;
+	font-size: 20px;
+	color: #fff;
+}
+
+ .tabela-box-pequeno li {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background:url(images/tabela-box-pequeno-dark_03.png);
+}
+.tabela-box-pequeno li:nth-of-type(odd) {
+	background: url(images/tabela-box-pequeno-light_03.png);
+
+}
+
+
+
+
+ .tabela-box-medio li {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background:url(images/tabela-box-medio-dark_03.png);
+}
+.tabela-box-medio li:nth-of-type(odd) {
+	background: url(images/tabela-box-medio-light_03_03.png);
+
+}
+
+
+ .tabela-box-grande li {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background:url(images/tabela-box-grande-dark_03.png);
+}
+.tabela-box-grande li:nth-of-type(odd) {
+	background: url(images/tabela-box-grande-light_03.png);
+
+}
+
+
+
+
+.texto-boxes p {
+		font-family: "gotham_light", Cursive;
+		font-size: 15.96px;
+		color: #535e72;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARA SUA EMPRESA*/
+.para-sua-empresa-fluid {
+background: url(images/estoque_tudo_solucoes_para_sua_empresa-bg_02.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 5px solid #f47c45;
+}
+.para-sua-empresa-texto-um p{
+font-family: "gotham_light", Cursive;
+color: #fff;
+font-size: 18px;
+padding: 25px 0;
+}
+
+.itens-solucoes p {
+	font-family: "gotham_bold", Cursive;
+	font-size: 24px;
+	color: #169eaf;
+}
+.solucoes-fluid-itens {
+	padding-top: 50px;
+	padding-bottom: 65px;
+}
+.linha-um {
+	margin-bottom: 80px;
+}
+.container-itens a {
+	background: #f08e4a;
+    padding: 20px 102px;
+    color: #fff;
+    font-family: "gotham_bold", Cursive;
+    font-size: 18px;
+}
+.row.linha-dois {
+    margin-bottom: 59px;
 }
